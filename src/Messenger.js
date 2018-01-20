@@ -28,6 +28,9 @@ class Messenger {
         });
         this.inputField.addEventListener('submit', this.saveUserMessage.bind(this));
         this.button.addEventListener('click', this.botMessage.bind(this));
+        this.messageBox.scrollTo(0,this.messageBox.scrollHeight);
+
+
     }
     saveUserMessage(ev) {
             ev.preventDefault();
