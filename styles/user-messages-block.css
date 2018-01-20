@@ -2,7 +2,6 @@
 .user-messages-block {
   margin-bottom: 20px;
   margin-top: 10px;
-  padding: 1;
 }
 .user-messages-block_friend {
   margin-left: 52px;
@@ -42,6 +41,8 @@
   letter-spacing: normal;
   text-align: left;
   color: #353535;
+  max-width: 292px;
+  overflow: auto;
 }
 .user-messages-block__message_friend {
   float: left;
