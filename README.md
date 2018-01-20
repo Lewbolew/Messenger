@@ -7,5 +7,4 @@
 json-server --watch data/messages.json --port=3000
 
 ```
-
 2. Open index.html file
