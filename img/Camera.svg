@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="1" width="21" height="16" rx="4"></rect>
+        <rect id="path-2" x="4" y="0" width="3" height="2"></rect>
+        <circle id="path-3" cx="16.5" cy="5.5" r="1"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Camera">
+            <g>
+                <g id="Rectangle-5" opacity="0.677592844">
+                    <use fill="#E5E5E5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="1.5" width="20" height="15" rx="4"></rect>
+                </g>
+                <circle id="Oval-6" stroke="#B9B9B9" cx="10.5" cy="9.5" r="3.5"></circle>
+                <circle id="Oval-7" stroke="#B9B9B9" fill="#D8D8D8" cx="10.5" cy="9.5" r="1"></circle>
+                <g id="Rectangle-9">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#B9B9B9" stroke-width="1" x="4.5" y="0.5" width="2" height="1"></rect>
+                </g>
+                <g id="Oval-8">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <circle stroke="#B9B9B9" stroke-width="1" cx="16.5" cy="5.5" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

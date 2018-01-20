@@ -1,0 +1,60 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+.user-messages-block {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 1;
+}
+.user-messages-block_friend {
+  margin-left: 52px;
+  margin-right: 18px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.user-messages-block_user {
+  margin-right: 16px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.user-messages-block__friend-picture {
+  position: absolute;
+  margin-left: -40px;
+  width: 28px;
+  height: 28px;
+}
+.user-messages-block__message {
+  border-radius: 0.9em 0.9em 0.9em 0.9em;
+  display: block;
+  background-color: #f3f3f3;
+  padding: 0 2px 0 6px;
+  margin-bottom: 1px;
+}
+.user-messages-block__message p {
+  padding: 5px 7px;
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #353535;
+}
+.user-messages-block__message_friend {
+  float: left;
+  clear: left;
+}
+.user-messages-block__message_user {
+  float: right;
+  clear: right;
+  background-color: #2979FF;
+}
+.user-messages-block__message_user p {
+  color: #ffffff;
+}
+.user-messages-block ul {
+  padding: 0;
+  margin: 0;
+}

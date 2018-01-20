@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/messenger.css">
+    <link rel="stylesheet" href="styles/whole-page.css">
+    <link rel="stylesheet" href="styles/user-info.css">
+    <link rel="stylesheet" href="styles/icons-group.css">
+    <link rel="stylesheet" href="styles/messages-section.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/user-messages-block.css">
+    <title>MyMessenger</title>
+</head>
+
+<body class="body">
+<div class="messenger">
+    <header class="header">
+
+        <section class="user-info">
+            <div class="user-info__oval"></div>
+            <h6 class   ="user-info__user-name">Bohdan Petryshak </h6>
+        </section>
+
+        <section class="icons-group">
+            <object class="icons-group__icon" type="image/svg+xml" data="img/Plus.svg"></object>
+            <object class="icons-group__icon" type="image/svg+xml" data="img/Video.svg"></object>
+            <object class="icons-group__icon" type="image/svg+xml" data="img/Cog.svg"></object>
+            <object class="icons-group__icon" type="image/svg+xml" data="img/Close.svg"></object>
+        </section>
+
+    </header>
+
+
+    <main class="messages-section">
+    </main>
+
+
+    <footer class="footer">
+        <hr class="footer__horizontal-line">
+
+        <section>
+            <form id = 'form' autocomplete="off">
+
+                <input class='footer__message-input' name="message" type="text" placeholder="Input your message...">
+            </form>
+        </section>
+
+        <section class="icons-group_footer">
+            <object class="icons-group__icon_footer" type="image/svg+xml" data="img/Picture.svg"></object>
+            <object class="icons-group__icon_footer" type="image/svg+xml" data="img/Gif.svg"></object>
+            <object class="icons-group__icon_footer" type="image/svg+xml" data="img/Smile.svg"></object>
+            <object class="icons-group__icon_footer" type="image/svg+xml" data="img/Calendar.svg"></object>
+            <object class="icons-group__icon_footer" type="image/svg+xml" data="img/Calendar.svg"></object>
+        </section>
+
+    </footer>
+</div>
+
+<button class="button">Wake Bot!</button>
+
+<script src="./dist/bundle.js" async></script>
+
+</body>
+
+</html>

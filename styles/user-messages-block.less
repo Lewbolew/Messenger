@@ -1,0 +1,70 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+.user-messages-block {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  //clear: both;
+  padding: 1;
+
+  &_friend {
+    margin-left: 52px;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  &_user {
+
+    margin-right: 16px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  &__friend-picture {
+    position: absolute;
+    margin-left: -40px;
+    width: 28px;
+    height: 28px;
+  }
+  &__message {
+    border-radius: 0.9em 0.9em 0.9em 0.9em;
+    display: block;
+    background-color: #f3f3f3;
+    padding: 0 2px 0 6px;
+    margin-bottom: 1px;
+
+    p {
+      padding: 5px 7px;
+      margin: 0;
+      font-family: Open Sans;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #353535;
+    }
+
+    &_friend {
+      float: left;
+      clear: left;
+    }
+    &_user {
+      float: right;
+      clear: right;
+      background-color: #2979FF;
+
+      p {
+        color: #ffffff;
+
+      }
+    }
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+}

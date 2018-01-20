@@ -1,0 +1,19 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+.messenger {
+  width: 292px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-top-left-radius: 0.3em 0.3em;
+  border-top-right-radius: 0.3em 0.3em;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.11);
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 20px;
+  font-family: Open Sans;
+}

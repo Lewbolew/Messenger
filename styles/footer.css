@@ -1,0 +1,24 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+.footer {
+  background-color: white;
+  clear: both;
+}
+.footer__horizontal-line {
+  width: 100%;
+  height: 0.001px;
+  margin: 0;
+  background-color: #e5e5e5;
+  border: solid 1px #e5e5e5;
+}
+.footer__message-input {
+  border: none;
+  padding: 0;
+  margin-left: 16px;
+  width: 90%;
+  height: 17px;
+  margin-top: 7px;
+  resize: none;
+  color: #949494;
+  font-size: 12px;
+  font-family: Open Sans;
+}

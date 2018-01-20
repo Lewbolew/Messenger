@@ -1,0 +1,17 @@
+.user-info {
+  display: flex;
+  align-items: center;
+}
+.user-info__user-name {
+  margin: 0;
+  color: #ffffff;
+  font-weight: bold;
+}
+.user-info__oval {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #69f0ae;
+  margin-left: 7px;
+  margin-right: 7px;
+}

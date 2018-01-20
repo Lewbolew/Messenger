@@ -1,0 +1,54 @@
+{
+  "dialog_1": [
+    {
+      "isUser": false,
+      "messageText": "Hello!",
+      "id": 1
+    },
+    {
+      "isUser": true,
+      "messageText": "erioy",
+      "id": 2
+    },
+    {
+      "isUser": true,
+      "messageText": "dtyery",
+      "id": 3
+    },
+    {
+      "isUser": false,
+      "messageText": "Really?O_O",
+      "id": 4
+    },
+    {
+      "isUser": true,
+      "messageText": "wert",
+      "id": 5
+    },
+    {
+      "isUser": true,
+      "messageText": "wert",
+      "id": 6
+    },
+    {
+      "isUser": true,
+      "messageText": "wert",
+      "id": 7
+    },
+    {
+      "isUser": true,
+      "messageText": "eiodsfn",
+      "id": 8
+    },
+    {
+      "isUser": true,
+      "messageText": "dklfjsdf",
+      "id": 9
+    },
+    {
+      "isUser": true,
+      "messageText": "fwejnfiojss",
+      "id": 10
+    }
+  ]
+}
